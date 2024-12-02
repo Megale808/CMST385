@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(41, 40, 40);
+}
+h1{
+    color: yellow;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+h2{
+    color:yellow;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* Navigation Bar */
+#NavBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+
+#NavBar li{
+    float: left;
+}
+
+#NavBar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+#NavBar li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+.NavList{
+    background-color: red;
+}
+
+/* Artist Section */
+#artistInfo{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    overflow: auto;
+    text-align: center;
+    
+}
+
+.contentMainPic{
+    float: right;
+    padding: 10px;
+}
+
+/* Music Page */
+
+#musicContainer{
+   background-color: black;
+   content: '';
+   display: table;
+   clear: both;
+}
+
+.column{  
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.button:link, .button:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.button:hover, .button:active{
+    background-color: yellow;
+    color: #333;
+}
+
+header{
+  background-color: #666;
+  padding: 3px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 10px;
+  color: white;
+}
+
+
