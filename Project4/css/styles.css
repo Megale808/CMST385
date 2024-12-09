@@ -1,0 +1,285 @@
+#wrapper{
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.logo-main{
+    /* background-color: aqua; */
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+
+.space-box{
+    /* background-color: aquamarine; */
+    width: 25%;
+}
+
+.nav-bar{
+    /* background-color: lightyellow; */
+    color: #fff;
+    width: 50%;
+    margin: auto;
+
+}
+
+.nav-bar > .nav-bar-list{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav-bar-list > li{
+    list-style: none;
+    float: left;
+}
+.nav-bar-list > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar-list > li a:hover {
+    background-color: lightgrey;
+    color: blue;
+}
+
+#main-home{
+    /* background-color:lightblue; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.main-center-image > img{
+    display: block;
+    padding: auto;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+ }
+ 
+#blog-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+#blog-container > #blog{
+    /* background-color: beige; */
+    width: 33.33%;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+#blog-container > #blog > .blog-inner-text{
+    /* background-color:lightcoral; */
+    width: fit-content;
+    height: fit-content; 
+    padding: 10px;
+    margin: 25px;
+}
+
+#blog-container > #blog > .blog-inner-text > .blog-inner-text-title {
+    width: fit-content;
+    height: fit-content; 
+    padding: 10px;
+    margin: 10px;
+}
+
+#blog-container > #blog > .blog-inner-text > .blog-inner-text-body {
+    width: fit-content;
+    height: fit-content; 
+    padding: 5px;
+    margin: 5px;
+}
+
+/* #main-center-blog{
+    background-color: gray;
+}
+
+#main-center-blog > div.section-content{
+    background-color: darkgrey;
+    display: flex;
+    gap: 10px;
+    margin: 50px;
+}
+
+
+#main-center-blog > div.section-content > div > div.section-content-container-a{
+     background-color: rgb(85, 84, 85);
+    width: 350px;
+}
+
+
+#main-center-blog > div.section-content > div > div.section-content-containor-b{
+    background-color: darkgray;
+    width: 350px;
+} */
+
+#main-center-blog > div.section-content> div.read-more-button{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+}
+
+
+#main-recipe > .main-recipe-content{
+    display: block;
+}
+
+#main-recipe > .main-recipe-content>.grid-container{
+    display: grid;
+    /* border: 1.5px solid black; */
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+
+
+#main-recipe > .main-recipe-content > .grid-container > .grid-item{
+    /* border: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+}
+
+#footer{
+    background-color: black;
+    padding: 15px;
+    margin-top: 150px;
+    height: 90px;
+}
+
+#footer > div.footer-content{
+    text-align: center;
+    color: #fff;
+    margin:25px;
+}
+
+#main-recipe > .main-recipe-content {
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+#main-contact > .main-container-contact > h2{
+    text-align: center;
+}
+
+#main-contact > .main-container-contact > .content-info > .content{
+    display: inline-flex;
+    gap: 100px;
+
+}
+
+#INFO > .content{
+    margin-top: 25px;
+    margin-left: 35%;
+}
+
+#main-contact > .main-container-contact > .content-info > .content > .left , .right > p{
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+}
+
+#email-form {
+    background-color: gray;
+    position: relative;
+    width: 700px;
+    height: 600px;
+    left: 25%;
+    
+}
+
+#email-container{
+    background-color: #fff;
+    border: 1px solid black;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    margin: 25px;
+}
+
+#o-layout > .o-layout-items{
+    box-sizing: border-box;
+    display: inline;
+    vertical-align: top;
+    margin: 25px;
+
+}
+
+#i-layout > .i-layout-items{
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+
+#main-video{
+    display: flex;
+    gap: 20px;
+    
+}
+
+#video-container > div.video-page-title{
+    text-align: center;
+}
+
+#video-container > div.video-page-content > video{
+    margin-left: 150px;
+    margin-right: 150px;
+}   
+
+#video-transcript{
+    margin: 25px;
+}
+
+#video-transcript > p{
+    line-height: 1.8;
+}
+
+#v-btn-more{
+    float:right;
+    margin-right: 60px;
+    border: 1 solid whitesmoke;
+    border-radius: 5px;
+    background-color: blue;
+    color:#fff;
+}
+
+#v-btn-more > h4 {
+    text-align: center;
+    margin: 10px;
+}
