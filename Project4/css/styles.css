@@ -110,18 +110,13 @@
     margin: 10px;
 }
 
-#blog-container > #blog > .blog-inner-text > .blog-inner-text-body {
-    width: fit-content;
-    height: fit-content; 
-    padding: 5px;
-    margin: 5px;
+
+#main-center-blog{
+    /* background-color: gray; */
+    padding: 25px;
 }
 
-/* #main-center-blog{
-    background-color: gray;
-}
-
-#main-center-blog > div.section-content{
+/* #main-center-blog > div.section-content{
     background-color: darkgrey;
     display: flex;
     gap: 10px;
@@ -282,4 +277,91 @@
 #v-btn-more > h4 {
     text-align: center;
     margin: 10px;
+}
+
+#blog-page-head-title {
+    background-image: url(../Images/guylook@beer2.jpg.avif);
+    background-repeat: no-repeat;
+    background-position: right center, left top;
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+#title-blog{
+    text-align: center;
+    margin: 25px;
+    color: whitesmoke;
+}
+#blog-page-head-title > h2{
+    line-height: 1.8;
+    margin-top: 0;
+    font-size: 80px;
+    text-shadow: 4px 4px black;
+}
+
+#blog-content-outter > div.blog-title-container{
+    display: inline-flex;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+#main-blog-container{
+    width: 90%;
+    background-color:white;
+    border-radius: 10px;
+    border: 1.5 solid black;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 10px 10px 5px gray;
+}
+
+#main-blog-container > .blog-container-items{
+    /* border: 1px solid darkgray; */
+    display: inline-flex;
+    padding: 25px;
+    margin-left: 15px;
+}
+
+
+#blog-img-container > img{
+    border-radius: 5px;
+    margin: 25px;
+}
+
+#blog-container-items{
+    background-color: lightgray;
+    border: 0.5 solid black;
+}
+
+#bottom-content-container{
+    /* background-color: gray; */
+    border: 1 solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    box-shadow: 10px 10px 5px gray;
+}
+
+#head-line-title{
+    margin-left: 100px;
+}
+
+#head-line-title > h4{
+    float: right;
+}
+
+
+#bottom-content-container>#head-line-picture > img{
+    border-radius: 10px;
+    border: 1 solid white;
+    margin-left: 200px;
 }
